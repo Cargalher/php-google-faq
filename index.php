@@ -29,12 +29,17 @@ $faqs = [
         'answer' => "Your account is associated with a country (or territory) in the Terms of Service so that we can determine two things:
 
         The Google affiliate that provides the services, that processes your information, and that is responsible for complying with applicable privacy laws. Generally, Google offers its consumer services through either of two companies:
+        
         Google Ireland Limited, if you’re located in the European Economic Area (EU countries plus Iceland, Liechtenstein, and Norway) or Switzerland
+        
         Google LLC, based in the United States, for the rest of the world
+        
         The version of the terms that govern our relationship, which can vary depending on local laws
+        
         Keep in mind that Google services are essentially the same, regardless of the affiliate that provides the services or your country association.
         
         Determining the country associated with your account
+        
         When you create a new account, we associate your account with a country based on where you created your Google Account. For accounts at least a year old, we use the country from which you usually access Google services – typically where you’ve spent the most time in the last year.
         
         Frequent travel doesn’t generally affect the country associated with your account. If you move to a new country, it can take about a year for your country association to update.
@@ -51,6 +56,7 @@ $faqs = [
     ],
 
 ];
+
 // var_dump($faqs);
 ?>
 <!DOCTYPE html>
@@ -94,7 +100,7 @@ $faqs = [
         ?>
 </main>
 <footer>
-
+        
 </footer>
     
 
