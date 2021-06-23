@@ -27,13 +27,13 @@ $faqs = [
         'question' => "Why is my account associated with a country?",
         'answer' => "Your account is associated with a country (or territory) in the Terms of Service so that we can determine two things:<br><br>
 
-        1.The Google affiliate that provides the services, that processes your information, and that is responsible for complying with applicable privacy laws. Generally, Google offers its consumer services through either of two companies:<br><br>
+        1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Google affiliate that provides the services, that processes your information, and that is responsible for complying with applicable privacy laws. Generally, Google offers its consumer services through either of two companies:<br><br>
         
-            a.   Google Ireland Limited, if you’re located in the European Economic Area (EU countries plus Iceland, Liechtenstein, and Norway) or Switzerland <br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Google Ireland Limited, if you’re located in the European Economic Area (EU countries plus Iceland, Liechtenstein, and Norway) or Switzerland <br><br>
         
-            b.   Google LLC, based in the United States, for the rest of the world <br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Google LLC, based in the United States, for the rest of the world <br><br>
         
-        2.  The version of the terms that govern our relationship, which can vary depending on local laws <br><br>
+        2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The version of the terms that govern our relationship, which can vary depending on local laws <br><br>
         
         Keep in mind that Google services are essentially the same, regardless of the affiliate that provides the services or your country association.<br><br><br>
         
