@@ -69,41 +69,55 @@ $faqs = [
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-    <div class="top_header">
-        <img src="./img/logo.png" alt="logo-google">
-        <span> Privacy & Termini</span>
-    </div>
-   
-
-    <nav>
-    <a href="#">Introduzione</a>
-    <a href="#">Norme sulla privacy</a>
-    <a href="#">Termini di servizio</a>
-    <a href="#">Tecnologie</a>
-    <a href="#">Domande frequenti</a>
-    </nav>
-</header>
-<main id="site_main" class="container">
-    <?php foreach ($faqs as  $faq) {
-        ?>
-        <!-- printing all the question -->
-        <h2>
-            <?php echo $faq['question'] ?>
-        </h2> 
-        <!-- printing all the answers -->
-        <p>
-            <?php echo $faq['answer'] ?></h2>
-        </p>
-        <?php 
-        }
-        ?>
-</main>
-<footer>
-        
-</footer>
+    <header>
+        <div class="top_header">
+            <img src="./img/logo.png" alt="logo-google">
+            <span> Privacy & Termini</span>
+        </div>
     
 
-
+        <nav>
+        <a href="#">Introduzione</a>
+        <a href="#">Norme sulla privacy</a>
+        <a href="#">Termini di servizio</a>
+        <a href="#">Tecnologie</a>
+        <a href="#">Domande frequenti</a>
+        </nav>
+    </header>
+    <main id="site_main" class="container">
+        <?php foreach ($faqs as  $faq) {
+            ?>
+            <!-- printing all the question -->
+            <h2>
+                <?php echo $faq['question'] ?>
+            </h2> 
+            <!-- printing all the answers -->
+            <p>
+                <?php echo $faq['answer'] ?></h2>
+            </p>
+            <?php 
+            }
+            ?>
+    </main>
+    <footer>
+        <div class="footer_container container">
+            <div class="footer_left">
+                <a href="#">Google</a>
+                <a href="#">About Google</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+            </div>
+            <div class="footer_right">
+                <select id="language">
+                    <option>English (United kingdom)</option>
+                    <option>Italiano</option>
+                    <option>Español</option>
+                    <option>français</option>
+                    <option> 汉语</option>
+                    <option>português </option>
+                </select>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

@@ -43,7 +43,7 @@ a:hover{
     color: blue;
 }
 #site_main{
-    padding: 100px;
+    padding: 100px 0;
 }
 h2{
     padding: 20px 0;
@@ -52,6 +52,12 @@ p{
     line-height: 24px;
 }
 footer{
-    height:30px;
-    background-color: lightgray;
+  background-color: lightgray;
+}
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+   padding: 20px 0;
 }
