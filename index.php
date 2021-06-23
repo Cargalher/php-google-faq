@@ -62,10 +62,12 @@ var_dump($faqs);
     <title>Document</title>
 </head>
 <body>
-<?php foreach ($faqs as  $faq) 
-    echo $faq;
+<?php foreach ($faqs as  $faq) {
 ?>
-  
-
+<!-- printing all the question -->
+<h2><?php echo $faq['question'] ?></h2> 
+<?php 
+}
+?>
 </body>
 </html>
