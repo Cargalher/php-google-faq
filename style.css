@@ -18,7 +18,7 @@ header{
     padding:15px;
 }
 .top_header > span{
-    font-size: 32px;
+    font-size: 27px;
     margin-left: 30px;
     font-weight: 500;
     color: #3f3e3e;
@@ -26,7 +26,7 @@ header{
 }
 
 img{
-    width: 90px;
+    width: 85px;
 }
 nav{
     border-bottom: 1px solid gray;
@@ -41,6 +41,12 @@ a{
 }
 a:hover{
     color: blue;
+    border-bottom: 3px solid blue;
+    padding:15px;
+}
+nav:hover{
+    color: blue;
+    
 }
 #site_main{
     padding: 100px 0;
