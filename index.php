@@ -60,14 +60,39 @@ $faqs = [
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<?php foreach ($faqs as  $faq) {
-?>
-<!-- printing all the question -->
-<h2><?php echo $faq['question'] ?></h2> 
-<?php 
-}
-?>
+<header>
+    <img src="" alt="">
+    <nav>
+    <a href="">Introduzione</a>
+    <a href="">Norme sulla privacy</a>
+    <a href="">Termini di servizio</a>
+    <a href="">Tecnologie</a>
+    <a href="">Domande frequenti</a>
+    </nav>
+</header>
+<main id="site_main" class="container">
+    <?php foreach ($faqs as  $faq) {
+        ?>
+        <!-- printing all the question -->
+        <h2>
+            <?php echo $faq['question'] ?>
+        </h2> 
+        <!-- printing all the answers -->
+        <p>
+            <?php echo $faq['answer'] ?></h2>
+        </p>
+        <?php 
+        }
+        ?>
+</main>
+<footer>
+
+</footer>
+    
+
+
 </body>
 </html>

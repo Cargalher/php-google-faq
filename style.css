@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.container{
+    width:90%;
+    margin: auto;
+}
+header{
+    display: flex;
+    flex-direction:column;
+
+}
+nav{
+    border-bottom: 1px solid gray;
+}
+#site_main{
+    padding: 100px;
+}
