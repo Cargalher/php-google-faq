@@ -51,7 +51,7 @@ $faqs = [
     ],
 
 ];
-var_dump($faqs);
+// var_dump($faqs);
 ?>
 <!DOCTYPE html>
 <html lang="en">
