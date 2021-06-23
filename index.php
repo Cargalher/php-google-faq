@@ -43,7 +43,7 @@ $faqs = [
         
         Frequent travel doesn’t generally affect the country associated with your account. If you move to a new country, it can take about a year for your country association to update.<br><br>
         
-        If the country associated with your account doesn’t correspond to your country of residence, it could be because of a difference between your country of work and residence, because you’ve installed a Virtual Private Network (VPN) to mask your IP address, or because you live close to a territorial border. <a>Contact us</a>  if you think that your country association is wrong.<br><br><br><br>",
+        If the country associated with your account doesn’t correspond to your country of residence, it could be because of a difference between your country of work and residence, because you’ve installed a Virtual Private Network (VPN) to mask your IP address, or because you live close to a territorial border. <a>Contact us </a>  if you think that your country association is wrong.<br><br><br><br>",
     ],
     [
         'question' => "How can I remove information about myself from Google’s search results?",
@@ -66,6 +66,9 @@ $faqs = [
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
         integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 </head>
@@ -73,7 +76,7 @@ $faqs = [
     <header>
         <div class="top_header">
             <img src="./img/logo.png" alt="logo-google">
-            <span> Privacy & Termini</span>
+            <span> Privacy & Terms </span>
         </div>
     
 
