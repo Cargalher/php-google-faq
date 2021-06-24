@@ -43,7 +43,7 @@ $faqs = [
         
         Frequent travel doesn’t generally affect the country associated with your account. If you move to a new country, it can take about a year for your country association to update.<br><br>
         
-        If the country associated with your account doesn’t correspond to your country of residence, it could be because of a difference between your country of work and residence, because you’ve installed a Virtual Private Network (VPN) to mask your IP address, or because you live close to a territorial border. <a>Contact us </a>  if you think that your country association is wrong.<br><br><br><br>",
+        If the country associated with your account doesn’t correspond to your country of residence, it could be because of a difference between your country of work and residence, because you’ve installed a Virtual Private Network (VPN) to mask your IP address, or because you live close to a territorial border. <a>Contact us <i class='fas fa-external-link-alt'></i> </a>  if you think that your country association is wrong.<br><br><br><br>",
     ],
     [
         'question' => "How can I remove information about myself from Google’s search results?",
