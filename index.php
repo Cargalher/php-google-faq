@@ -78,14 +78,12 @@ $faqs = [
             <img src="./img/logo.png" alt="logo-google">
             <span> Privacy & Terms </span>
         </div>
-    
-
         <nav>
-        <a href="#">Overview</a>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms of Service</a>
-        <a href="#">Technologies</a>
-        <a href="#">FAQ</a>
+            <a href="#">Overview</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Technologies</a>
+            <a href="#">FAQ</a>
         </nav>
     </header>
     <main id="site_main" class="container">
